@@ -1,0 +1,22 @@
+body{
+	background:#333;
+}
+
+
+.box{
+        background: white;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        animation-name: kelvin;
+        animation-duration: 4s;
+}
+
+@keyframes kelvin {
+        0%{background-color: white;}
+        25%{background-color: red;}
+        70%{background: green;}
+        100%{background-color: white;}
+}
+
+
